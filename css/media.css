@@ -9,6 +9,20 @@
         width: 768px;
     }
 
+    .header {
+        padding-bottom: 24px;
+    }
+
+    .menu-open-btn,
+    .mob-menu {
+        display: none;
+    }
+
+    .header-list,
+    .header-address {
+        display:flex;
+    }
+
     .hero-title {
         font-size: 56px;
         line-height: 1.07;
@@ -68,6 +82,11 @@
         margin-bottom: 0px;
         margin-right: 24px;
     }
+
+    .modal {
+        width: 408px;
+        padding: 72px 24px 24px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -78,6 +97,14 @@
 
     .container {
         width: 1158px;
+    }
+
+    .header-logo {
+        margin-right: 76px;
+    }
+
+    .header-address-list {
+        gap: 40px;
     }
 
     .hero {
@@ -92,6 +119,10 @@
     .feature {
         padding-top: 120px;
         padding-bottom: 0px;
+    }
+
+    .feature-list {
+        flex-wrap: nowrap;
     }
 
     .feature-item {
@@ -124,6 +155,10 @@
 
     .team-item {
         width: calc((100% - 72px) / 4);
+    }
+
+    .customers-list {
+        flex-wrap: nowrap;
     }
 
     .footer {
